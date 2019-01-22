@@ -11,17 +11,11 @@
 	<!-- Main structure css file -->
     <!--<link href="../css/style2.css" rel="stylesheet">-->
     <title>ME Events</title>
-	<link id="orginal" href="../css/themes/default-theme.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="../css/common.css" />
 	<link rel="stylesheet" type="text/css" href="../css/styleevents.css" />
 		<link rel="stylesheet" type="text/css" href="../css/logo1.css" />
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,700' rel='stylesheet' type='text/css' />
-	<script type="text/javascript" src="js/modernizr.custom.79639.js"></script> 
-		
-	<script type="text/javascript" src="../js/wow.min.js">
 	
-		new WOW().init();
-	</script>
   </head>
   <body>
   
@@ -127,7 +121,7 @@
 						<div class="ch-item ch-img-1" style="background-image: url(../images/1.jpg);">
 							<div class="ch-info">
 								<h3>Technical Quiz</h3>
-								<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".ppt" style="font-size:12px">More</a></p>
+								<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".quiz" style="font-size:12px">More</a></p>
 							</div>
 						</div>
 							<h6>Technical Quiz</h5>
@@ -145,7 +139,7 @@
 						<div class="ch-item ch-img-3" style="background-image: url(../images/3.jpg);">
 							<div class="ch-info">
 								<h3>Roborace</h3>
-								<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".ppt" style="font-size:12px">More</a></p>
+								<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".robo" style="font-size:12px">More</a></p>
 							</div>
 						</div>
 						<h6>Roborace</h6>
@@ -154,7 +148,7 @@
 						<div class="ch-item ch-img-1" style="background-image: url(../images/4.jpg);">
 							<div class="ch-info">
 								<h5>Innovative Project Experiment</h5>
-								<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".ppt" style="font-size:12px">More</a></p>
+								<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".ipe" style="font-size:12px">More</a></p>
 							</div>
 						</div>
 							<h6>Innovative Project Experiment</h6>
@@ -174,11 +168,79 @@
 
 
 	
-<!--Buttons-->
-<!--
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".ppt">Paper Presentation</button>
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".quiz">Technical Quiz</button>
--->
+<!--Technical Quiz Model-->
+<div class="modal fade quiz" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <p class="modal-title mt" id="exampleModalLongTitle">Technical Quiz</p>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+<!--p class="mbsh">Round 1: Qualification Round</p>
+<ul  class="mb">
+	<li>A team of maximum 2 players can register. </li>
+	<li>The quiz comprises of 20 questions (multiple choice and true/false). </li>
+	<li>Time duration for the quiz is 30-45 minutes. </li>
+</ul>
+<p class="mbsh">Round 2: Elimination Round</p>
+<ul  class="mb">
+	<li>The teams that clear Qualification Round, enters the Elimination Round. </li>
+	<li>This will be held on the event day. This round will be in the form of a written exam comprising of short answer type questions. </li>
+	<li>The top 4 teams shall qualify for the Grand Finale. </li>
+	<li>The duration of the quiz will be around 30-45 minutes.</li>
+</ul>
+<p class="mbsh">Round 3: The Grand Finale</p>
+<ul  class="mb">
+	<li>A quiz will be conducted with a quiz master. </li>
+	<li>Quiz will be carried out in multiple rounds. </li>
+</ul>
+<p class="mbsh">Certificate Policy</p>
+<ul  class="mb">
+	<li>Cash prizes and Certificate of Excellence will be awarded to teams in the final as per their positions.</li>
+</ul-->
+      </div>
+      <div class="modal-footer">
+<div class="container">
+  <div class="row justify-content-between  text-white">
+    <div class="col-lg-6">
+      <pre class="text-white bg-primary float-left"><!--Becareful while changing the order Change the order-->
+ <b>Faculty Coordinator details:</b> 
+ Mr. Sk.A. Rahim
+ 
+ Mr. B.Visweswara
+ 
+ Mr. L.Prudhvi Raj
+
+</pre>
+    </div>
+    <div class="col-lg-6 text-white">
+      <pre class="float-right bg-info text-white">
+	  
+ <b>Student Coordinator details:</b> 
+ G.sowmya
+ 
+ G. Anusha
+ 
+ G. sitaram
+ 
+ P.Sushma
+ 
+ S.Subash
+
+</pre>
+    </div>
+  </div>
+</div>
+
+      </div>
+    </div>
+    </div>
+  </div>
+
 <!--Paper Presentation Model-->
 <div class="modal fade ppt" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
@@ -190,7 +252,7 @@
         </button>
       </div>
       <div class="modal-body">
-<ol>
+<!--ol>
 	<li class="mbsh">Environmental & Sustainable Technology Development
 		<ul  class="mb">
 			<li>Energy Engineering</li>
@@ -256,37 +318,33 @@ References:
 <ul  class="mb">
 	<li>Presentation</li>
 	<li>Concept reach to masses</li>
-</ul>
+</ul-->
 
       </div>
       <div class="modal-footer">
 <div class="container">
   <div class="row justify-content-between  text-white">
-    <div class="col-sm-6">
+    <div class="col-lg-6">
       <pre class="text-white bg-primary float-left"><!--Becareful while changing the order Change the order-->
  <b>Faculty Coordinator details:</b> 
- XXXXXXXXXX
-  <a class="text-white" href="tel:+91-999-999-9999">9999999999</a>
-  <a class="text-white" href="mailto:xxxxxx@gmail.com?subject=Bectagon%20Event">xxxxxx@gmail.com</a>
+ Dr.Tapankumarmahanta
+ 
+ Mr. M. Subrahmanyam
 
- XXXXXXXXXX
-  <a class="text-white" href="tel:+91-999-999-9999">9999999999</a>
-  <a class="text-white" href="mailto:xxxxxx@gmail.com?subject=Bectagon%20Event">xxxxxx@gmail.com</a>
-  
 </pre>
     </div>
-    <div class="col-sm-6 text-white">
+    <div class="col-lg-6 text-white">
       <pre class="float-right bg-info text-white">
 	  
  <b>Student Coordinator details:</b> 
- XXXXXXXXXX
-  <a class="text-white" href="tel:+91-999-999-9999">9999999999</a>
-  <a class="text-white" href="mailto:xxxxxx@gmail.com?subject=Bectagon%20Event">xxxxxx@gmail.com</a>
+ K.Hannah
+ 
+ K.Balakrishna
+ 
+ SK.Shammi
+ 
+ P.Naresh
 
- XXXXXXXXXX
-  <a class="text-white" href="tel:+91-999-999-9999">9999999999</a>
-  <a class="text-white" href="mailto:xxxxxx@gmail.com?subject=Bectagon%20Event">xxxxxx@gmail.com</a>
-  
 </pre>
     </div>
   </div>
@@ -297,19 +355,19 @@ References:
   </div>
 </div>
 
-<!--Technical Quiz Model-->
-<div class="modal fade quiz" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+<!--Roborace Model-->
+<div class="modal fade robo" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <p class="modal-title mt" id="exampleModalLongTitle">Technical Quiz</p>
+        <p class="modal-title mt" id="exampleModalLongTitle">Roborace</p>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
 
-<p class="mbsh">Round 1: Qualification Round</p>
+<!--p class="mbsh">Round 1: Qualification Round</p>
 <ul  class="mb">
 	<li>A team of maximum 2 players can register. </li>
 	<li>The quiz comprises of 20 questions (multiple choice and true/false). </li>
@@ -330,36 +388,107 @@ References:
 <p class="mbsh">Certificate Policy</p>
 <ul  class="mb">
 	<li>Cash prizes and Certificate of Excellence will be awarded to teams in the final as per their positions.</li>
-</ul>
+</ul-->
       </div>
       <div class="modal-footer">
 <div class="container">
   <div class="row justify-content-between  text-white">
-    <div class="col-sm-6">
+    <div class="col-lg-6">
       <pre class="text-white bg-primary float-left"><!--Becareful while changing the order Change the order-->
  <b>Faculty Coordinator details:</b> 
- XXXXXXXXXX
-  <a class="text-white" href="tel:+91-999-999-9999">9999999999</a>
-  <a class="text-white" href="mailto:xxxxxx@gmail.com?subject=Bectagon%20Event">xxxxxx@gmail.com</a>
+ Sri. VCA Varakumar
 
- XXXXXXXXXX
-  <a class="text-white" href="tel:+91-999-999-9999">9999999999</a>
-  <a class="text-white" href="mailto:xxxxxx@gmail.com?subject=Bectagon%20Event">xxxxxx@gmail.com</a>
-  
+ Dr. M.Venkateswararao
+
+ Mr.M.PardhaSaradhi
+
 </pre>
     </div>
-    <div class="col-sm-6 text-white">
+    <div class="col-lg-6 text-white">
       <pre class="float-right bg-info text-white">
 	  
  <b>Student Coordinator details:</b> 
- XXXXXXXXXX
-  <a class="text-white" href="tel:+91-999-999-9999">9999999999</a>
-  <a class="text-white" href="mailto:xxxxxx@gmail.com?subject=Bectagon%20Event">xxxxxx@gmail.com</a>
+ M.Ashok
+ 
+ S.Harish
+ 
+ A.Sumantha
+ 
+ R.Yogeswari
+ 
+ G.Ramya
 
- XXXXXXXXXX
-  <a class="text-white" href="tel:+91-999-999-9999">9999999999</a>
-  <a class="text-white" href="mailto:xxxxxx@gmail.com?subject=Bectagon%20Event">xxxxxx@gmail.com</a>
-  
+</pre>
+    </div>
+  </div>
+</div>
+
+      </div>
+    </div>
+    </div>
+  </div>
+
+<!--Innovative project Expo Model-->
+<div class="modal fade ipe" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <p class="modal-title mt" id="exampleModalLongTitle">Innovative project Expo</p>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+<!--p class="mbsh">Round 1: Qualification Round</p>
+<ul  class="mb">
+	<li>A team of maximum 2 players can register. </li>
+	<li>The quiz comprises of 20 questions (multiple choice and true/false). </li>
+	<li>Time duration for the quiz is 30-45 minutes. </li>
+</ul>
+<p class="mbsh">Round 2: Elimination Round</p>
+<ul  class="mb">
+	<li>The teams that clear Qualification Round, enters the Elimination Round. </li>
+	<li>This will be held on the event day. This round will be in the form of a written exam comprising of short answer type questions. </li>
+	<li>The top 4 teams shall qualify for the Grand Finale. </li>
+	<li>The duration of the quiz will be around 30-45 minutes.</li>
+</ul>
+<p class="mbsh">Round 3: The Grand Finale</p>
+<ul  class="mb">
+	<li>A quiz will be conducted with a quiz master. </li>
+	<li>Quiz will be carried out in multiple rounds. </li>
+</ul>
+<p class="mbsh">Certificate Policy</p>
+<ul  class="mb">
+	<li>Cash prizes and Certificate of Excellence will be awarded to teams in the final as per their positions.</li>
+</ul-->
+      </div>
+      <div class="modal-footer">
+<div class="container">
+  <div class="row justify-content-between  text-white">
+    <div class="col-lg-6">
+      <pre class="text-white bg-primary float-left"><!--Becareful while changing the order Change the order-->
+ <b>Faculty Coordinator details:</b> 
+ Dr. Ratna Sunil
+
+ Mr. JambeswarSahu
+
+ Mr. V.Srinivasulu
+
+</pre>
+    </div>
+    <div class="col-lg-6 text-white">
+      <pre class="float-right bg-info text-white">
+	  
+ <b>Student Coordinator details:</b> 
+ R.Avinash
+ 
+ A.Praveenkumar
+ 
+ K.V.V Harshavardhan
+ 
+ N.Jayadeep
+
 </pre>
     </div>
   </div>
